@@ -1,0 +1,129 @@
+.noPadding{
+  padding: 0px;
+}
+
+.vertical-center {
+    min-height: 80%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.vh{
+  height: 100vh;}
+
+  .vh5{
+    height: 50vh;
+  }
+
+
+/*-------------------------------------------------------/
+/* NAV BAR */
+
+/* remove spacing at bottom */
+nav.navbar.navbar-inverse{
+  margin-bottom: 0;
+}
+
+/*span bars */
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: red;
+}
+
+/*icon box*/
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle{
+  border-color: transparent;
+}
+
+.transparentNav{
+  margin-bottom: 0;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.blackNav{
+  background-color: #000000;
+  border-color: #000000;
+  }
+}
+
+/*------------------------------------------------------------/
+/* LANDING */
+
+
+
+.hb{
+
+  margin-top: 0 !important;
+
+}
+
+h1{
+  text-align: center;
+
+}
+
+.mid{
+  margin-top: 15%;
+}
+
+#landing{
+  background: url("sixhulahoop.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*------------------------------------------------------------/
+/* ABOUT */
+
+img{
+  width: 100%;
+}
+
+.class{
+  flex: 0;
+}
+
+
+/*----------------------------------------------------------/
+/* TABLETS */
+@media screen and (min-width: 480px){
+
+  /*NAV*/
+  ul.nav.navbar-nav{
+    float: right;
+  }
+
+  /*LANDING*/
+
+}
+
+
+/*------------------------------------------------------/
+/* Desktop */
+@media only screen and (min-width: 780px){
+  .ha{
+    text-align:left;
+    margin-top: 30%;
+    margin-left: 20px;
+
+  }
+
+  .hb{
+    text-align: right;
+    margin-top: 30%;
+    margin-right: 20px;
+  }
+
+  #landing{
+    background-position: 0 96%;
+  }
+
+}
+
+/*-------------------------------------------------------/
+/* IPAD PRO */
