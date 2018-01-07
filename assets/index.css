@@ -57,6 +57,15 @@ h2{
   font-size: 35px;
   letter-spacing: 1px;
 }
+
+button{
+  background-color: #cd183b ;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-top: 20px;
+
+}
 /*-------------------------------------------------------/
 /* NAV BAR */
 
@@ -102,6 +111,9 @@ nav.navbar.navbar-inverse{
   letter-spacing: 1px;
   }
 
+  .active{
+    color: #000000 !important;
+  }
 
 /*------------------------------------------------------------/
 /* LANDING */
@@ -135,6 +147,16 @@ span{
 
 img{
   width: 100%;
+}
+
+#pastperformances{
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#aboutme{
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 
@@ -270,17 +292,7 @@ button.btn.btn-default {
 }
 
 
-/*-------------------------------------------------------/
-/* IPAD PRO */
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  {
-    #landing{
-      background-position: 49% 98% !important;
-    }
-}
+
 
 /*------------------------------------------------------/
 /* Desktop */
@@ -318,12 +330,45 @@ button.btn.btn-default {
       font-size: 65px;
     }
 
-  #landing{
-    background-position: 0 98%;
-  }
 
   h2{
     font-size: 50px;
   }
+    /* ABOUT */
+    #pastperformances{
+      padding-bottom: 60px;
+    }
+
+    #aboutme{
+      padding-top: 60px;
+
+    }
+
+    /*-------------------------------------------------------/
+    /* IPAD PRO */
+    @media only screen
+      and (min-device-width: 768px)
+      and (max-device-width: 1024px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      {
+        #landing{
+          background-position: 49% 98% !important;
+        }
+
+        p{
+          font-size: 14px;
+        }
+
+        #pastperformances{
+          padding: 1px;
+        }
+
+        #aboutme{
+          padding: 1px;
+
+        }
+    }
+
+
 
 }
