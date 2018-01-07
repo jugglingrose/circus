@@ -1,3 +1,12 @@
+/*Red: #cd183b  */
+
+/*------------------------------------------------/
+/* MISC CODES */
+
+.whiteTXT{
+  color: #ffffff;
+}
+
 .noPadding{
   padding: 0px;
 }
@@ -10,13 +19,44 @@
 }
 
 .vh{
-  height: 100vh;}
+  height: 100vh;
+}
 
-  .vh5{
-    height: 50vh;
-  }
+p{
+  margin: 0;
+}
 
+@font-face {
+font-family: "Steelfish";
+src: url("assets/fonts/steelfish/steelfish_rg-webfont.eot");
+src:
+url("assets/fonts/steelfish/steelfish_rg-webfont.woff") format("woff"),
+url("assets/fonts/steelfish/steelfish_rg-webfont.svg") format("svg");
+}
 
+@font-face {
+font-family: "garamond";
+src: url("assets/fonts/garamond/ebgaramond-regular-webfont.eot");
+src:
+url("assets/fonts/garamond/ebgaramond-regular-webfont.woff") format("woff"),
+url("assets/fonts/garamond/ebgaramond-regular-webfont.svg") format("svg"),
+url("assets/fonts/garamond/EBGaramond-Regular.ttf") format("true type");
+}
+
+body{
+  font-family: 'Steelfish', 'Arial Narrow', Arial, sans-serif;
+}
+
+p, q{
+  font-family: "garamond";
+  font-size: 18px;
+}
+
+h2{
+  margin-bottom: 20px;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
 /*-------------------------------------------------------/
 /* NAV BAR */
 
@@ -27,7 +67,7 @@ nav.navbar.navbar-inverse{
 
 /*span bars */
 .navbar-inverse .navbar-toggle .icon-bar{
-  background-color: red;
+  background-color: #ffffff;
 }
 
 /*icon box*/
@@ -45,37 +85,50 @@ nav.navbar.navbar-inverse{
   border-color: transparent;
 }
 
-.blackNav{
-  background-color: #000000;
-  border-color: #000000;
-  }
+.redNav{
+  background-color: #cd183b;
+  border-color: #cd183b;
 }
+
+  #brand{
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 1px;
+  }
+
+  ul.nav.navbar-nav li a{
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 1px;
+  }
+
 
 /*------------------------------------------------------------/
 /* LANDING */
 
-
-
-.hb{
-
-  margin-top: 0 !important;
-
-}
-
-h1{
-  text-align: center;
-
-}
-
-.mid{
-  margin-top: 15%;
-}
 
 #landing{
   background: url("sixhulahoop.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
 }
+
+span{
+  display: block;
+}
+
+.titleBox{
+  margin-top: 15%;
+  letter-spacing: 3px;
+}
+
+#title{
+  margin: 0;
+  text-align: center;
+  font-size: 50px;
+}
+
+
 
 /*------------------------------------------------------------/
 /* ABOUT */
@@ -84,10 +137,97 @@ img{
   width: 100%;
 }
 
-.class{
-  flex: 0;
+
+
+
+/*------------------------------------------------------------/
+/* CONTACT */
+
+#review{
+  background-color: #cd183b;
 }
 
+#reviews{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#contact{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+form{
+  margin: auto;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+input{
+  width: 100%;
+  height:auto;
+  margin-bottom: 2.5%;
+  height: 30px;
+  padding-left: 20px;
+  background-color: #cd183b;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ffffff;
+}
+
+
+textarea{
+  width: 100%;
+  margin-bottom: 2.5%;
+  padding-left: 20px;
+  background-color: #cd183b;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.submit{
+  width: 110px;
+  height: 28px;
+  background-color: #cd183b;
+  color: #ffffff;
+}
+
+button.btn.btn-default {
+  background-color: #cd183b;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+
+/*------------------------------------------------------------/
+/* FOOTER */
+
+#footerA{
+  background: #cd183b;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#footerB{
+  background: #000000;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.social{
+  height: 40px;
+  width: 40px;
+}
 
 /*----------------------------------------------------------/
 /* TABLETS */
@@ -99,31 +239,91 @@ img{
   }
 
   /*LANDING*/
+  .titleBox{
+    margin-top: 16%;
+  }
+
+  #title{
+    font-size: 60px
+  }
+
+
+  /*CONTACT*/
+  input{
+    width: 47.5%;
+  }
+
+  .L{
+    margin-right: 2.5%;
+  }
+
+  textarea{
+    width: 98%
+  }
+
+  /*FOOTER */
+  .social{
+    height: 60px;
+    width: 60px;
+  }
 
 }
 
+
+/*-------------------------------------------------------/
+/* IPAD PRO */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  {
+    #landing{
+      background-position: 49% 98% !important;
+    }
+}
 
 /*------------------------------------------------------/
 /* Desktop */
 @media only screen and (min-width: 780px){
-  .ha{
-    text-align:left;
-    margin-top: 30%;
-    margin-left: 20px;
+  /*LANDING*/
 
-  }
+    #landing{
+      background-position: 13% 96%;
+    }
 
-  .hb{
-    text-align: right;
-    margin-top: 30%;
-    margin-right: 20px;
-  }
+    span{
+      display: inline-block;
+    }
+
+    .titleBox{
+      margin-top: 0;
+      letter-spacing: 3px;
+      min-height: 80%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center
+    }
+
+    #titleA{
+      text-align: left;
+      margin-left: 10%;
+    }
+
+    #titleB{
+      text-align: right;
+      margin-right: 9%;
+    }
+
+    #title{
+      font-size: 65px;
+    }
 
   #landing{
-    background-position: 0 96%;
+    background-position: 0 98%;
+  }
+
+  h2{
+    font-size: 50px;
   }
 
 }
-
-/*-------------------------------------------------------/
-/* IPAD PRO */

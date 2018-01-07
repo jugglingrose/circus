@@ -27,14 +27,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">WebSiteName</a>
+          <a class="navbar-brand" id="brand" href="#">COREAN GONZALES</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">MEDIA</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACT</a></li>
           </ul>
         </div>
       </div>
@@ -42,7 +42,7 @@
 
 
 
-      <div id="landing">
+      <!--<div id="landing">
           <div class="container-fluid vh">
             <div class="row mid">
               <div class="col-xs-12 col-lg-6 noPadding">
@@ -54,31 +54,108 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
+
+      <div id="landing">
+        <div class="container-fluid">
+            <div class="row titleBox">
+              <div class="col-xs-12 col-md-6 noPadding" id="titleA">
+                <span><h1 id="title">CIRQUE ARTIST</h1></span>
+              </div>
+              <div class="col-xs-12 col-md-6 noPadding title" id="titleB">
+                <span><h1 id="title">COREAN GONZALES</h1></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
 
       <section id="about">
         <div class="container-fluid">
-          <div id="aboutme" class="row">
-            <div class="col-xs-12 col-sm-6 noPadding class">
-              <img src="assets/balljuggle.jpg">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 noPadding">
+              <img src="assets/balljugglecrop.jpg">
             </div>
-            <div class="col-xs-12 col-sm-6 text-center nopPadding"  >
-              <h2>Title</h2>
-              <p>blah blah blah</p>
+            <div id="aboutme" class="col-xs-12 col-sm-6 text-center nopPadding">
+              <h2>ABOUT</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu
+                sapien nec dolor convallis scelerisque id a ante. Morbi placerat
+                 vitae nibh</p>
             </div>
           </div>
 
-          <div id="pastperformances" class="row">
-            <div class = "col-xs-12 col-sm-6 text-center noPadding class  ">
+          <div class="row">
+            <div id="pastperformances" class = "col-xs-12 col-sm-6 text-center noPadding">
               <h2>PERFORMANCES OF NOTE</h2>
               <p> bla blah blah </p>
-              <button type=button>Services</button>
+              <button type="button">Services</button>
             </div>
-            <div class="col-xs-12 col-sm-6 noPadding class ">
-              <img src="assets/fourhoop.jpg">
+            <div class="col-xs-12 col-sm-6 noPadding">
+              <img src="assets/4hoopcrop.jpg">
             </div>
+          </div>
         </div>
       </section>
+
+      <section id="review">
+        <div id="review" class="container-fluid">
+          <div class="row">
+            <div id="reviews" class="col-xs-12 col-sm-8 col-sm-offset-2 text-center whiteTXT">
+              <h2>REVIEWS</h2>
+              <q>True Professional. Corean performed for our Isabel and Ruben Toledo event.
+                She was prompt and professional in every manner. She has a charismatic personality and definitely very talented in her craft. I hope to have the chance to work with her again!</q>
+                <p id="signature">~John, M.A.C Cosmetics</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="container-fluid">
+            <div  class='row'>
+              <div class="col-xs-12 text-center">
+                <h2>CONTACT</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                <form>
+                  <input class="L" type="text" name="name" placeholder="Name">
+                  <input type="email" name="email" placeholder="Email">
+                  <input  class="L" type="text" name="date" placeholder="Event Date">
+                  <input type="text" name="location" placeholder="Event Location">
+                  <input  class="L" type="text" name="number of attendees" placeholder="Number Of Guests">
+                  <input type="text" name="event type" placeholder="Type Of Event">
+                  <textarea name="additional details:" rows="8" cols="25">Additional Info</textarea>
+                </br>
+                  <button type="submit" class="btn btn-default">SUBMIT</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <div class="container-fluid">
+            <div id="footerA" class="row">
+              <div class="col-xs-2 col-xs-offset-3 text-center">
+                <img class="social" src="assets/Facebook.png">
+              </div>
+              <div class="col-xs-2 text-center">
+                <img class="social" src="assets/Instagram.png">
+              </div>
+              <div class="col-xs-2 text-center">
+                <img class="social" src="assets/YouTube.png">
+              </div>
+            </div>
+            <div id="footerB" class="row">
+              <div class="col-xs-12 text-center">
+                <p>Designed and Developed By Corean Gonzales</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
 
 
   </body>
