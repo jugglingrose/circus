@@ -336,11 +336,12 @@ button.btn.btn-default {
   }
     /* ABOUT */
     #pastperformances{
-      padding-bottom: 60px;
+
+      padding-top: 6%;
     }
 
     #aboutme{
-      padding-top: 60px;
+      padding-top: 6%;
 
     }
 
