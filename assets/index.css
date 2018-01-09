@@ -7,6 +7,10 @@
   color: #ffffff;
 }
 
+.redTXT{
+  color:  #cd183b;
+}
+
 .noPadding{
   padding: 0px;
 }
@@ -150,17 +154,31 @@ img{
 }
 
 #pastperformances{
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
 #aboutme{
   padding-top: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
+.flexContain{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.box{
+  width: 100%;
+}
 
+.boxB{
+  order: 1;
+}
+
+.boxA{
+  order: 2;
+}
 
 /*------------------------------------------------------------/
 /* CONTACT */
@@ -231,6 +249,33 @@ button.btn.btn-default {
 
 
 /*------------------------------------------------------------/
+/* services */
+
+#serviceHero img{
+  object-fit:cover;
+  height: 50vh;
+}
+
+#menu{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/*------------------------------------------------------------/
+/* MEDIA */
+.masonry { /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+/*------------------------------------------------------------/
 /* FOOTER */
 
 #footerA{
@@ -291,85 +336,124 @@ button.btn.btn-default {
 
 }
 
-
-
-
 /*------------------------------------------------------/
 /* Desktop */
 @media only screen and (min-width: 780px){
-  /*LANDING*/
 
-    #landing{
-      background-position: 13% 96%;
-    }
+p{
+  font-size: 18px;
+}
+/*LANDING*/
 
-    span{
-      display: inline-block;
-    }
+  #landing{
+    background-position: 13% 96%;
+  }
 
-    .titleBox{
-      margin-top: 0;
-      letter-spacing: 3px;
-      min-height: 80%;
-      min-height: 100vh;
-      display: flex;
-      align-items: center
-    }
+  span{
+    display: inline-block;
+  }
 
-    #titleA{
-      text-align: left;
-      margin-left: 10%;
-    }
+  .titleBox{
+    margin-top: 0;
+    letter-spacing: 3px;
+    min-height: 80%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center
+  }
 
-    #titleB{
-      text-align: right;
-      margin-right: 9%;
-    }
+  #titleA{
+    text-align: left;
+    margin-left: 10%;
+  }
 
-    #title{
-      font-size: 65px;
-    }
+  #titleB{
+    text-align: right;
+    margin-right: 9%;
+  }
+
+  #title{
+    font-size: 65px;
+  }
 
 
   h2{
     font-size: 50px;
   }
-    /* ABOUT */
-    #pastperformances{
 
-      padding-top: 6%;
-    }
+  /* ABOUT */
+  #pastperformances{
 
-    #aboutme{
-      padding-top: 6%;
+    padding-top: 6%;
+  }
 
-    }
-
-    /*-------------------------------------------------------/
-    /* IPAD PRO */
-    @media only screen
-      and (min-device-width: 768px)
-      and (max-device-width: 1024px)
-      and (-webkit-min-device-pixel-ratio: 2)
-      {
-        #landing{
-          background-position: 49% 98% !important;
-        }
-
-        p{
-          font-size: 14px;
-        }
-
-        #pastperformances{
-          padding: 1px;
-        }
-
-        #aboutme{
-          padding: 1px;
-
-        }
-    }
+  #aboutme{
+    padding-top: 6%;
+  }
 
 
+  .box{
+    width: 50%;
+  }
 
+  .boxB{
+    order: 2;
+  }
+
+  .boxA{
+    order: 1;
+  }
+
+  /*SERVICES*/
+  #serviceHero img{
+    object-fit:cover;
+    height: 70vh;
+
+  }
+}
+
+
+/*-------------------------------------------------------/
+/* IPAD PRO */
+/*@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2)*/
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1024px)
+and (min-device-height : 1366px) and (max-device-height : 1366px)
+and (min-width: 1024px) and (max-width: 1024px)
+{
+
+  #landing{
+    background-position: 49% 98% !important;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  #pastperformances{
+    padding: 30px;
+  }
+
+  #aboutme{
+    padding: 5px;
+
+  }
+
+  /* ABOUT */
+  .box{
+    height: 30vh;
+  }
+
+  .box img{
+    height: 100%;
+  }
+
+  /* SERVICES */
+  #serviceHero img{
+    height: 50vh;
+
+  }
 }

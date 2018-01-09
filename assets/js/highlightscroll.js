@@ -34,6 +34,9 @@ $(document).ready(function(){
       });
     });
 
+
+
     window.addEventListener("scroll", function(){
     var top = this.scrollY;
+    console.log(top);
   }
