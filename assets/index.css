@@ -30,12 +30,20 @@ p{
   margin: 0;
 }
 
+<FilesMatch “.(ttf|otf|eot|woff)$”>
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin “*”
+</IfModule>
+</FilesMatch>
+
 @font-face {
 font-family: "Steelfish";
-src: url("assets/fonts/steelfish/steelfish_rg-webfont.eot");
+src: url("assets/fonts/steelfish/steelfishrg-webfont.eot");
 src:
-url("assets/fonts/steelfish/steelfish_rg-webfont.woff") format("woff"),
-url("assets/fonts/steelfish/steelfish_rg-webfont.svg") format("svg");
+url("assets/fonts/steelfish/steelfishrg-webfont.woff") format("woff"),
+url("assets/fonts/steelfish/steelfishrg-webfont.svg") format("svg"),
+url("assets/fonts/steelfish/steelfishrg-webfont.ttf") format("true type"),
+url("assets/fonts/steelfish/steelfishrg-webfont.woff2") format("woff2");
 }
 
 @font-face {
@@ -51,6 +59,9 @@ body{
   font-family: 'Steelfish', 'Arial Narrow', Arial, sans-serif;
 }
 
+h1{
+  font-family: 'Steelfish', 'Arial Narrow', Arial, sans-serif;
+}
 p, q{
   font-family: "garamond";
   font-size: 18px;
@@ -151,6 +162,8 @@ span{
 
 img{
   width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
 
 #pastperformances{
@@ -212,6 +225,7 @@ input{
   background-color: #cd183b;
   color: #ffffff;
   letter-spacing: 1px;
+  font-family:"garamond";
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -231,6 +245,7 @@ textarea{
   background-color: #cd183b;
   color: #ffffff;
   letter-spacing: 1px;
+  font-family: "garamond";
 }
 
 .submit{
@@ -250,10 +265,15 @@ button.btn.btn-default {
 
 /*------------------------------------------------------------/
 /* services */
+/*#heroImg{
+  background: url("fivehoop.jpg") no-repeat center;
+  background-size: cover;
+  height: 60vh;
+}*/
 
-#serviceHero img{
-  object-fit:cover;
-  height: 50vh;
+#heroImg img{
+  height: 60vh;
+  object-fit: cover;
 }
 
 #menu{
@@ -296,7 +316,7 @@ button.btn.btn-default {
 }
 
 .social{
-  
+
   height: 40px;
   width: 40px;
 }
@@ -389,11 +409,11 @@ p{
   /* ABOUT */
   #pastperformances{
 
-    padding-top: 6%;
+    padding-top: 80px;
   }
 
   #aboutme{
-    padding-top: 6%;
+    padding-top: 80px;
   }
 
 
@@ -410,8 +430,8 @@ p{
   }
 
   /*SERVICES*/
-  #serviceHero img{
-    object-fit:cover;
+  #heroImg img{
+
     height: 70vh;
 
   }
@@ -457,7 +477,7 @@ and (min-width: 1024px) and (max-width: 1024px)
   }
 
   /* SERVICES */
-  #serviceHero img{
+  #heroImg img{
     height: 50vh;
 
   }
