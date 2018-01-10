@@ -263,18 +263,22 @@ button.btn.btn-default {
 
 /*------------------------------------------------------------/
 /* MEDIA */
-.masonry { /* Masonry container */
-    column-count: 4;
-    column-gap: 1em;
+#photos{
+  margin-top: 20px;
 }
 
-.item { /* Masonry bricks or child elements */
-    background-color: #eee;
-    display: inline-block;
-    margin: 0 0 1em;
-    width: 100%;
+#vidContain{
+  position: relative;
+  width: 100%;
+  padding-bottom: 60%;
+  margin-bottom: 20px;
 }
 
+.video{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
 /*------------------------------------------------------------/
 /* FOOTER */
 
@@ -292,6 +296,7 @@ button.btn.btn-default {
 }
 
 .social{
+  
   height: 40px;
   width: 40px;
 }
