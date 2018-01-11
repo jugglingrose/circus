@@ -8,11 +8,9 @@ function getSize(){
   var nav = document.getElementById('navb');
 
   if ( w >= 760){
-    console.log('width is greater than 760')
     nav.classList.remove('redNav');
     nav.classList.add('transparentNav');
   } else{
-    console.log('width is less than 760');
     nav.classList.remove('transparentNav');
     nav.classList.add('redNav');
   }

@@ -30,40 +30,31 @@ p{
   margin: 0;
 }
 
-<FilesMatch “.(ttf|otf|eot|woff)$”>
-<IfModule mod_headers.c>
-Header set Access-Control-Allow-Origin “*”
-</IfModule>
-</FilesMatch>
-
 @font-face {
-font-family: "Steelfish";
-src: url("assets/fonts/steelfish/steelfishrg-webfont.eot");
+font-family: "Steelfish-online";
+src: url("fonts/steelfish/steelfishrg-webfont.eot");
 src:
-url("assets/fonts/steelfish/steelfishrg-webfont.woff") format("woff"),
-url("assets/fonts/steelfish/steelfishrg-webfont.svg") format("svg"),
-url("assets/fonts/steelfish/steelfishrg-webfont.ttf") format("true type"),
-url("assets/fonts/steelfish/steelfishrg-webfont.woff2") format("woff2");
+url("fonts/steelfish/steelfishrg-webfont.woff") format("woff"),
+url("fonts/steelfish/steelfishrg-webfont.svg") format("svg"),
+url("fonts/steelfish/steelfishrg-webfont.ttf") format("true type"),
+url("fonts/steelfish/steelfishrg-webfont.woff2") format("woff2");
 }
 
 @font-face {
-font-family: "garamond";
-src: url("assets/fonts/garamond/ebgaramond-regular-webfont.eot");
+font-family: "garamond-online";
+src: url("fonts/garamond/ebgaramond-regular-webfont.eot");
 src:
-url("assets/fonts/garamond/ebgaramond-regular-webfont.woff") format("woff"),
-url("assets/fonts/garamond/ebgaramond-regular-webfont.svg") format("svg"),
-url("assets/fonts/garamond/EBGaramond-Regular.ttf") format("true type");
+url("fonts/garamond/ebgaramond-regular-webfont.woff") format("woff"),
+url("fonts/garamond/ebgaramond-regular-webfont.svg") format("svg"),
+url("fonts/garamond/EBGaramond-Regular.ttf") format("true type");
 }
 
 body{
-  font-family: 'Steelfish', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Steelfish-online', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1{
-  font-family: 'Steelfish', 'Arial Narrow', Arial, sans-serif;
-}
 p, q{
-  font-family: "garamond";
+  font-family: "garamond-online";
   font-size: 18px;
 }
 
@@ -225,7 +216,7 @@ input{
   background-color: #cd183b;
   color: #ffffff;
   letter-spacing: 1px;
-  font-family:"garamond";
+  font-family:"garamond-online";
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -245,7 +236,7 @@ textarea{
   background-color: #cd183b;
   color: #ffffff;
   letter-spacing: 1px;
-  font-family: "garamond";
+  font-family: "garamond-online";
 }
 
 .submit{

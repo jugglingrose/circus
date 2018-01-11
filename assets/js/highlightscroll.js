@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   //activate on window scroll//
   $(document).scroll(function(){
-    console.log( "document scroll top is:" + $(document).scrollTop() );
+    
     // if document is in hero landing, remove active from all anchor tags//
     if ( $(document).scrollTop() < ($('#about').offset().top -50)  ){
       $('nav ul li a').removeClass('active');
