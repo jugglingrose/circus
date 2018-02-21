@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Steelfish-online";
+  src: url("./fonts/steelfishrg-webfont.eot");
+  src: url("./fonts/steelfishrg-webfont.woff") format("woff"), url("./fonts/steelfishrg-webfont.svg") format("svg"), url("./fonts/steelfishrg-webfont.ttf") format("true type"), url("./fonts/steelfishrg-webfont.woff2") format("woff2");
+}
+@font-face {
+  font-family: "garamond-online";
+  src: url("./fonts/ebgaramond-regular-webfont.eot");
+  src: url("./fonts/ebgaramond-regular-webfont.woff") format("woff"), url("./fonts/ebgaramond-regular-webfont.svg") format("svg"), url("./fonts/EBGaramond-Regular.ttf") format("true type");
+}
+body {
+  font-family: 'Steelfish-online', 'Arial Narrow', Arial, sans-serif;
+}
+p,
+q {
+  font-family: "garamond-online";
+  font-size: 18px;
+  margin: 0px;
+}
+.contain {
+  border: 0.5px solid #808080;
+  margin-bottom: 30px;
+}
+.b {
+  height: 75vh;
+}
+.summary-title {
+  margin: 0px;
+  color: #fff;
+  background-color: #cd183b;
+  padding: 10px;
+x
+}
+.summary {
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  border: 1px solid #ddd;
+  margin: 0;
+  -webkit-line-clamp: 2;
+  padding: 10px;
+}
+.sum {
+  margin-bottom: 20px;
+}
+@font-face {
+  font-family: "Steelfish-online";
+  src: url("fonts/steelfish/steelfishrg-webfont.eot");
+  src: url("fonts/steelfish/steelfishrg-webfont.woff") format("woff"), url("fonts/steelfish/steelfishrg-webfont.svg") format("svg"), url("fonts/steelfish/steelfishrg-webfont.ttf") format("true type"), url("fonts/steelfish/steelfishrg-webfont.woff2") format("woff2");
+}
+@font-face {
+  font-family: "garamond-online";
+  src: url("fonts/garamond/ebgaramond-regular-webfont.eot");
+  src: url("fonts/garamond/ebgaramond-regular-webfont.woff") format("woff"), url("fonts/garamond/ebgaramond-regular-webfont.svg") format("svg"), url("fonts/garamond/EBGaramond-Regular.ttf") format("true type");
+}
+nav.navbar.navbar-inverse {
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.redNav {
+  background-color: #cd183b;
+  border-color: #cd183b;
+}
+#brand {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+ul.nav.navbar-nav li a {
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.active {
+  color: #000 !important;
+}
+@media screen and (min-width: 480px) {
+  ul.nav.navbar-nav {
+    float: right;
+  }
+}
+#footerA {
+  background: #cd183b;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#footerB {
+  background: #000;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.social {
+  height: 40px;
+  width: 40px;
+}
