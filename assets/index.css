@@ -124,11 +124,11 @@ nav.navbar.navbar-inverse{
 /*------------------------------------------------------------/
 /* LANDING */
 
-#landing{
+/* #landing{
   background: url("sixhulahoop.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
-}
+} */
 
 span{
   display: block;
