@@ -41,8 +41,10 @@ nav {
 }
 
 @media screen and (min-width: 990px) {
-  .title {
-    line-height: 80px;
-    font-size: 65px;
+  .landing-section {
+    .title {
+      line-height: 80px;
+      font-size: 65px;
+    }
   }
 }
