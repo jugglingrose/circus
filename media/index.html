@@ -16,6 +16,8 @@
     <meta charset="utf-8" />
 
     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="media.css" />
+
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -66,81 +68,82 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail landscape">
               <img
-                src="../assets/fivehoopkick.jpg"
+                src="../assets/images/2-hoop-weave-circus.jpg"
                 onclick="
                   openModal();
                   currentSlide(1);
                 "
-                alt="broadway hula hoop"
+                alt="Hula hooper on stage wearing circus costume"
                 style="width: 100%"
               />
             </div>
           </div>
           <div class="col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail landscape">
               <img
-                src="../assets/five.jpg"
+                src="../assets/images/circus-style-ball-juggling.jpg"
                 onclick="
                   openModal();
                   currentSlide(2);
                 "
-                alt="circus hula hoop"
+                alt="circus performer juggling three balls under the big top"
                 style="width: 100%"
               />
             </div>
           </div>
           <div class="col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail landscape">
               <img
-                src="../assets/balljuggle.jpg"
+                src="../assets/images/festival-hooping-for-kids.jpg"
                 onclick="
                   openModal();
                   currentSlide(3);
                 "
-                alt="juggler"
+                alt="Hula Hooping for children at a festival"
                 style="width: 100%"
               />
             </div>
           </div>
         </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail portrait">
+            <img
+              src="../assets/images/circus-style-4-hoop-box.jpg"
+              onclick="
+                openModal();
+                currentSlide(5);
+              "
+              alt="circus artist hula hooping 4 hula hoops at a corporate event"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail portrait">
+            <img
+              src="../assets/images/festival-hooping.jpg"
+              onclick="
+                openModal();
+                currentSlide(6);
+              "
+              alt="hula hooper spinning three hula hoops at an outdoor festival"
+              style="width: 100%"
+            />
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail portrait">
               <img
-                src="../assets/sixhoop.jpg"
+                src="../assets/images/6-hoop-mandala.jpg"
                 onclick="
                   openModal();
                   currentSlide(4);
                 "
-                alt="cirque hula hoop"
-                style="width: 100%"
-              />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img
-                src="../assets/jugglehoop.jpg"
-                onclick="
-                  openModal();
-                  currentSlide(5);
-                "
-                alt="hula hoop juggling"
-                style="width: 100%"
-              />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img
-                src="../assets/abdc.jpg"
-                onclick="
-                  openModal();
-                  currentSlide(6);
-                "
-                alt="LED hula hooping"
+                alt="circus performer holding 6 hula hoops in the shape of a 6 ring mandala"
                 style="width: 100%"
               />
             </div>
@@ -148,40 +151,40 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail landscape">
               <img
-                src="../assets/clubs.jpg"
+                src="../assets/images/kids-show-with-audience-2.jpg"
                 onclick="
                   openModal();
                   currentSlide(7);
                 "
-                alt="club juggling"
+                alt="A hula hooper on stage performing for a large audience of kids"
                 style="width: 100%"
               />
             </div>
           </div>
           <div class="col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail landscape">
               <img
-                src="../assets/graduationevent.png"
+                src="../assets/images/festival-hooping-for-kids-face-balance.JPG"
                 onclick="
                   openModal();
                   currentSlide(8);
                 "
-                alt="hula hoop show"
+                alt="A hula hooper balancing a hoop on her face while kids watch"
                 style="width: 100%"
               />
             </div>
           </div>
           <div class="col-md-4">
-            <div class="thumbnail">
+            <div class="thumbnail landscape">
               <img
-                src="../assets/sixflags.jpg"
+                src="../assets/images/circus-style-club-juggling.jpg"
                 onclick="
                   openModal();
                   currentSlide(9);
                 "
-                alt="event entertainment"
+                alt="A juggler is walking around a venue juggling 3 juggling clubs"
                 style="width: 100%"
               />
             </div>
@@ -199,48 +202,75 @@
         </div>
         <div class="row modal-content">
           <div class="row">
-            <div class="col-xs-12 mySlides">
-              <img src="../assets/fivehoopkick.jpg" style="width: 100%" />
+            <div class="col-xs-12 mySlides carousel-landscape">
+              <img
+                src="../assets/images/2-hoop-weave-circus.jpg"
+                style="width: 100%"
+              />
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 mySlides">
-              <img src="../assets/five.jpg" style="width: 100%" />
+            <div class="col-xs-12 mySlides carousel-landscape">
+              <img
+                src="../assets/images/circus-style-ball-juggling.jpg"
+                style="width: 100%"
+              />
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 mySlides">
-              <img src="../assets/balljuggle.jpg" style="width: 100%" />
+            <div class="col-xs-12 mySlides carousel-landscape">
+              <img
+                src="../assets/images/festival-hooping-for-kids.jpg"
+                style="width: 100%"
+              />
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 mySlides">
-              <img src="../assets/sixhoop.jpg" style="width: 100%" />
+            <div class="col-xs-12 mySlides carousel-portrait">
+              <img
+                src="../assets/images/6-hoop-mandala.jpg"
+                style="width: 100%"
+              />
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 mySlides">
-              <img src="../assets/jugglehoop.jpg" style="width: 100%" />
+            <div class="col-xs-12 mySlides carousel-portrait">
+              <img
+                src="../assets/images/circus-style-4-hoop-box.jpg"
+                style="width: 100%"
+              />
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 mySlides">
-              <img src="../assets/abdc.jpg" style="width: 100%" />
+            <div class="col-xs-12 mySlides carousel-portrait">
+              <img
+                src="../assets/images/festival-hooping.jpg"
+                style="width: 100%"
+              />
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 mySlides">
-              <img src="../assets/clubs.jpg" style="width: 100%" />
+            <div class="col-xs-12 mySlides carousel-landscape">
+              <img
+                src="../assets/images/kids-show-with-audience-2.jpg"
+                style="width: 100%"
+              />
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 mySlides">
-              <img src="../assets/graduationevent.png" style="width: 100%" />
+            <div class="col-xs-12 mySlides carousel-landscape">
+              <img
+                src="../assets/images/festival-hooping-for-kids-face-balance.JPG"
+                style="width: 100%"
+              />
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 mySlides">
-              <img src="../assets/sixflags.jpg" style="width: 100%" />
+            <div class="col-xs-12 mySlides carousel-landscape">
+              <img
+                src="../assets/images/circus-style-club-juggling.jpg"
+                style="width: 100%"
+              />
             </div>
           </div>
 
@@ -252,7 +282,7 @@
     </section>
 
     <section>
-      <div class="container">
+      <!-- <div class="container">
         <div class="row">
           <div class="col-xs-12">
             <div id="vidContain">
@@ -264,7 +294,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <footer>
