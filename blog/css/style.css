@@ -74,6 +74,18 @@ ul.nav.navbar-nav li a {
   font-size: 22px;
   letter-spacing: 1px;
 }
+
+ul.nav.navbar-nav li{
+    cursor: pointer;
+}
+
+ul.nav.navbar-nav li a:hover {
+  font-weight: bold;
+
+}
+
+
+
 .active {
   color: #000 !important;
 }
