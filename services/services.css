@@ -5,3 +5,10 @@
     margin: 15px auto;
   }
 }
+
+#menu {
+  li {
+    font-size: 18px;
+    font-family: "garamond-online";
+  }
+}

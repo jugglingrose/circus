@@ -15,8 +15,8 @@ nav {
   .title {
     margin: 100px auto 0;
     display: flex;
-    line-height: 80px;
-    font-size: 65px;
+    line-height: 50px;
+    font-size: 40px;
     justify-content: center;
     text-align: center;
     max-width: 608px;
@@ -37,5 +37,12 @@ nav {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .title {
+    line-height: 80px;
+    font-size: 65px;
   }
 }
