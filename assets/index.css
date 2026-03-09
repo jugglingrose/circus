@@ -176,11 +176,11 @@ img{
 }
 
 .boxB{
-  order: 1;
+  order: 2;
 }
 
 .boxA{
-  order: 2;
+  order: 1;
 }
 
 /*------------------------------------------------------------/
@@ -486,11 +486,11 @@ p{
   }
 
   .boxB{
-    order: 2;
+    order: 1;
   }
 
   .boxA{
-    order: 1;
+    order: 2;
   }
 
   /*SERVICES*/
