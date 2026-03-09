@@ -1,4 +1,8 @@
 #photos {
+  img {
+    cursor: pointer;
+  }
+
   @media screen and (min-width: 990px) {
     .landscape {
       img {

@@ -3,6 +3,9 @@ nav {
 }
 
 .landing-section {
+  position: relative;
+  top: 30px;
+
   .container {
     height: 100%;
     margin: 0px;
@@ -10,6 +13,10 @@ nav {
     background: url("./assets/sixhulahoop.jpg") no-repeat center;
     background-size: cover;
     height: 100vh;
+  }
+
+  .hero {
+    height: 55vh;
   }
 
   .title {

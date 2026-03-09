@@ -4,6 +4,11 @@
     font-size: 25px;
     margin: 15px auto;
   }
+
+  .services-content {
+    position: relative;
+    top: 45px;
+  }
 }
 
 #menu {

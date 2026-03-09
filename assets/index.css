@@ -262,8 +262,9 @@ button.btn.btn-default {
 }*/
 
 #heroImg img{
-  height: 60vh;
+  height: 45vh;
   object-fit: cover;
+
 }
 
 #menu{
