@@ -12,8 +12,11 @@
 }
 
 #menu {
+  p {
+    font-size: 25px;
+  }
   li {
-    font-size: 18px;
+    font-size: 25px;
     font-family: "garamond-online";
   }
 }
