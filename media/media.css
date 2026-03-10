@@ -19,7 +19,19 @@
 }
 
 #myModal {
-  @media screen and (min-width: 990px) {
+  .carousel-landscape {
+    img {
+      height: 300px;
+    }
+  }
+
+  .carousel-portrait {
+    img {
+      height: 300px;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
     .carousel-landscape {
       img {
         height: 650px;

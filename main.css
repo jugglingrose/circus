@@ -31,7 +31,7 @@ nav {
 
   p,
   q {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -57,6 +57,11 @@ nav {
     .title {
       line-height: 80px;
       font-size: 65px;
+    }
+
+    p,
+    q {
+      font-size: 25px;
     }
   }
 }
