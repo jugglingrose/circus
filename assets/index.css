@@ -429,7 +429,7 @@ row:after {
 
 /*------------------------------------------------------/
 /* Desktop */
-@media only screen and (min-width: 780px){
+@media only screen and (min-width: 1200px){
 
 p{
   font-size: 18px;
@@ -514,53 +514,3 @@ p{
 
 }
 
-
-
-/*-------------------------------------------------------/
-/* IPAD PRO */
-/*@media only screen
-and (min-device-width: 1024px)
-and (max-device-width: 1366px)
-and (-webkit-min-device-pixel-ratio: 2)*/
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1024px)
-and (min-device-height : 1366px) and (max-device-height : 1366px)
-and (min-width: 1024px) and (max-width: 1024px)
-{
-
-  #landing{
-    background-position: 49% 98% !important;
-  }
-
-  p{
-    font-size: 14px;
-  }
-
-  #pastperformances{
-    padding: 30px;
-  }
-
-  #aboutme{
-    padding: 5px;
-
-  }
-
-  /* ABOUT */
-  .box{
-    height: 30vh;
-  }
-
-  .box img{
-    height: 100%;
-  }
-
-  /* SERVICES */
-  #heroImg img{
-    height: 50vh;
-
-  }
-
-  /* MEDIA */
-  .modal {
-    padding-top: 30%;
-  }
-}
