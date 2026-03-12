@@ -263,7 +263,7 @@ button.btn.btn-default {
 }*/
 
 #heroImg img{
-  height: 45vh;
+  height: 40vh;
   object-fit: cover;
 
 }
@@ -510,7 +510,7 @@ p{
   /*SERVICES*/
   #heroImg img{
 
-    height: 70vh;
+    height: 60vh;
 
   }
 
