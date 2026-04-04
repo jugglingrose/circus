@@ -15,4 +15,18 @@ nav {
   textarea {
     padding-top: 6px;
   }
+
+  @media screen and (min-width: 600px) {
+    p,
+    q {
+      font-size: 22px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    p,
+    q {
+      font-size: 24px;
+    }
+  }
 }
