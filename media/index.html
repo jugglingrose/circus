@@ -1,9 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>
-      Hula Hoop Performer & Juggler Austin TX
-    </title>
+    <title>Hula Hoop Performer & Juggler Austin TX</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
@@ -13,7 +11,6 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="media.css" />
-
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -26,14 +23,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script src="../assets/js/lightbox.js"></script>
-    <!--<script src="../assets/js/nav.js"></script>-->
-
     <link rel="stylesheet" href="../assets/index.css" />
   </head>
 
   <body onload="getSize()" onresize="getSize()">
-    <!--NAV -->
-
+    <!-- NAV -->
     <nav id="navb" class="navbar navbar-inverse redNav">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -62,141 +56,16 @@
       </div>
     </nav>
 
+    <!-- Gallery Section -->
     <section id="photos">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="thumbnail landscape">
-              <img
-                src="../assets/images/Corporate/2-hoop-weave-circus-800.webp"
-                onclick="
-                  openModal();
-                  currentSlide(1);
-                "
-                alt="Hula hooper on stage wearing circus costume"
-                style="width: 100%"
-              />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail landscape">
-              <img
-                src="../assets/images/Corporate/circus-style-ball-juggling-800.webp"
-                onclick="
-                  openModal();
-                  currentSlide(2);
-                "
-                alt="Juggler juggling three balls under the big top in Austin TX"
-                style="width: 100%"
-              />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail landscape">
-              <img
-                src="../assets/images/Kids/festival-hooping-for-kids-1-800.webp"
-                onclick="
-                  openModal();
-                  currentSlide(3);
-                "
-                alt="Children's Hula Hooper hooping for children at a festival in Austin TX"
-                style="width: 100%"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="thumbnail portrait">
-            <img
-              src="../assets/images/Corporate/circus-style-4-hoop-box-800.webp"
-              onclick="
-                openModal();
-                currentSlide(5);
-              "
-              alt="Hula Hooper hula hooping 4 hula hoops at a Corporate event in Austin TX"
-              style="width: 100%"
-              loading="lazy"
-            />
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail portrait">
-            <img
-              src="../assets/images/Kids/festival-hooping-1-800.webp"
-              onclick="
-                openModal();
-                currentSlide(6);
-              "
-              alt="hula hooper spinning three hula hoops at an outdoor festival"
-              style="width: 100%"
-              loading="lazy"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="thumbnail portrait">
-              <img
-                src="../assets/images/6-hoop-mandala-1-800.webp"
-                onclick="
-                  openModal();
-                  currentSlide(4);
-                "
-                alt="circus performer holding 6 hula hoops in the shape of a 6 ring mandala"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="thumbnail landscape">
-              <img
-                src="../assets/images/Kids/kids-show-with-audience-2-800.webp"
-                onclick="
-                  openModal();
-                  currentSlide(7);
-                "
-                alt="A hula hooper on stage performing for a large audience of kids"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail landscape">
-              <img
-                src="../assets/images/Kids/festival-hooping-for-kids-face-balance-800.webp"
-                onclick="
-                  openModal();
-                  currentSlide(8);
-                "
-                alt="A hula hooper balancing a hoop on her face while kids watch"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail landscape">
-              <img
-                src="../assets/images/Corporate/circus-style-club-juggling-800.webp"
-                onclick="
-                  openModal();
-                  currentSlide(9);
-                "
-                alt="A juggler is walking around a venue juggling 3 juggling clubs"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
+        <div id="gallery-grid" class="row">
+          <!-- Generated by JavaScript -->
         </div>
       </div>
     </section>
 
+    <!-- Modal Section -->
     <section id="myModal" class="modal">
       <div class="container">
         <div class="row">
@@ -204,143 +73,31 @@
             <p class="close cursor" onclick="closeModal()">X</p>
           </div>
         </div>
-        <div class="row modal-content">
-          <div class="row">
-            <div class="col-xs-12 mySlides carousel-landscape">
-              <img
-                src="../assets/images/Corporate/2-hoop-weave-circus-2000.webp"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 mySlides carousel-landscape">
-              <img
-                src="../assets/images/Corporate/circus-style-ball-juggling-2000.webp"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 mySlides carousel-landscape">
-              <img
-                src="../assets/images/Kids/festival-hooping-for-kids-1-2000.webp"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 mySlides carousel-portrait">
-              <img
-                src="../assets/images/6-hoop-mandala-1-2000.webp"
-                fetchpriority="high"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 mySlides carousel-portrait">
-              <img
-                src="../assets/images/Corporate/circus-style-4-hoop-box-2000.webp"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 mySlides carousel-portrait">
-              <img
-                src="../assets/images/Kids/festival-hooping-1-2000.webp"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 mySlides carousel-landscape">
-              <img
-                src="../assets/images/Kids/kids-show-with-audience-2.jpg"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 mySlides carousel-landscape">
-              <img
-                src="../assets/images/Kids/festival-hooping-for-kids-face-balance-2000.webp"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 mySlides carousel-landscape">
-              <img
-                src="../assets/images/Corporate/circus-style-club-juggling-2000.webp"
-                style="width: 100%"
-                loading="lazy"
-              />
-            </div>
-          </div>
+        <div id="modal-slides" class="row modal-content">
+          <!-- Generated by JavaScript -->
 
           <!-- Controls -->
-          <button class="prev" onClick="plusSlides(-1)">
-            <
-          </button>
-         
-          <button class="next" onclick="plusSlides(1)"> > </button>
+          <button class="prev" onclick="plusSlides(-1)">&lt;</button>
+          <button class="next" onclick="plusSlides(1)">&gt;</button>
         </div>
       </div>
     </section>
-
-    <!-- <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div id="vidContain">
-              <iframe
-                src="https://www.youtube.com/embed/Va5NmrVj6dU"
-                title="YouTube video player"
-                frameborder="0"
-                allow="
-                  accelerometer;
-                  autoplay;
-                  clipboard-write;
-                  encrypted-media;
-                  gyroscope;
-                  picture-in-picture;
-                  web-share;
-                "
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-                class="video"
-              ></iframe>
-              <!-- <iframe
-                src="https://www.youtube.com/embed/Va5NmrVj6dU"
-                class="video"
-              > -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <footer>
       <div class="container-fluid">
         <div id="footerA" class="row">
           <div class="col-xs-2 col-xs-offset-4 text-center">
             <a href="https://www.instagram.com/circuscorean" target="_blank">
-              <img class="social" src="../assets/Instagram.png" />
+              <img
+                class="social"
+                src="../assets/Instagram.png"
+                alt="Instagram"
+              />
             </a>
           </div>
           <div class="col-xs-2 text-center">
             <a href="https://www.youtube.com/@coreangonzales1" target="_blank">
-              <img class="social" src="../assets/YouTube.png" />
+              <img class="social" src="../assets/YouTube.png" alt="YouTube" />
             </a>
           </div>
         </div>
@@ -351,5 +108,112 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const galleryData = [
+        {
+          thumb: "Corporate/2-hoop-weave-circus-800.webp",
+          full: "Corporate/2-hoop-weave-circus-2000.webp",
+          alt: "Hula hooper on stage wearing circus costume",
+          orientation: "landscape",
+        },
+        {
+          thumb: "Corporate/circus-style-ball-juggling-800.webp",
+          full: "Corporate/circus-style-ball-juggling-2000.webp",
+          alt: "Juggler juggling three balls under the big top in Austin TX",
+          orientation: "landscape",
+        },
+        {
+          thumb: "Kids/festival-hooping-for-kids-1-800.webp",
+          full: "Kids/festival-hooping-for-kids-1-2000.webp",
+          alt: "Children's Hula Hooper hooping for children at a festival in Austin TX",
+          orientation: "landscape",
+        },
+        {
+          thumb: "6-hoop-mandala-1-800.webp",
+          full: "6-hoop-mandala-1-2000.webp",
+          alt: "circus performer holding 6 hula hoops in the shape of a 6 ring mandala",
+          orientation: "portrait",
+        },
+        {
+          thumb: "Corporate/circus-style-4-hoop-box-800.webp",
+          full: "Corporate/circus-style-4-hoop-box-2000.webp",
+          alt: "Hula Hooper hula hooping 4 hula hoops at a Corporate event in Austin TX",
+          orientation: "portrait",
+        },
+        {
+          thumb: "Kids/festival-hooping-1-800.webp",
+          full: "Kids/festival-hooping-1-2000.webp",
+          alt: "hula hooper spinning three hula hoops at an outdoor festival",
+          orientation: "portrait",
+        },
+        {
+          thumb: "Kids/kids-show-with-audience-2-800.webp",
+          full: "Kids/kids-show-with-audience-2.jpg",
+          alt: "A hula hooper on stage performing for a large audience of kids",
+          orientation: "landscape",
+        },
+        {
+          thumb: "Kids/festival-hooping-for-kids-face-balance-800.webp",
+          full: "Kids/festival-hooping-for-kids-face-balance-2000.webp",
+          alt: "A hula hooper balancing a hoop on her face while kids watch",
+          orientation: "landscape",
+        },
+        {
+          thumb: "Corporate/circus-style-club-juggling-800.webp",
+          full: "Corporate/circus-style-club-juggling-2000.webp",
+          alt: "A juggler is walking around a venue juggling 3 juggling clubs",
+          orientation: "landscape",
+        },
+      ];
+
+      const gridContainer = document.getElementById("gallery-grid");
+      const modalContainer = document.getElementById("modal-slides");
+
+      // Generate Grid
+      galleryData.forEach((item, index) => {
+        const col = document.createElement("div");
+        col.className = "col-md-4";
+        col.innerHTML = `
+          <div class="thumbnail ${item.orientation}">
+            <img src="../assets/images/${item.thumb}" 
+                 onclick="openModal(); currentSlide(${index + 1})" 
+                 alt="${item.alt}" 
+                 style="width: 100%" 
+                 loading="lazy">
+          </div>
+        `;
+        gridContainer.appendChild(col);
+      });
+
+      // Generate Modal Slides
+      galleryData.forEach((item) => {
+        const slide = document.createElement("div");
+        slide.className = "mySlides carousel-" + item.orientation;
+        slide.innerHTML = `
+          <img src="../assets/images/${item.full}" 
+               style="width: 100%" 
+               alt="${item.alt}" 
+               loading="lazy">
+        `;
+        modalContainer.insertBefore(
+          slide,
+          modalContainer.querySelector(".prev"),
+        );
+      });
+
+      // Keyboard navigation
+      document.addEventListener("keydown", function (event) {
+        if (document.getElementById("myModal").style.display === "block") {
+          if (event.key === "ArrowLeft") {
+            plusSlides(-1);
+          } else if (event.key === "ArrowRight") {
+            plusSlides(1);
+          } else if (event.key === "Escape") {
+            closeModal();
+          }
+        }
+      });
+    </script>
   </body>
 </html>
