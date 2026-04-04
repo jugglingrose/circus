@@ -2,66 +2,17 @@ nav {
   background-color: #cd183b;
 }
 
-.landing-section {
+#landing {
+  background-position: 13% 96%;
   position: relative;
   top: 30px;
-
-  .container {
-    height: 100%;
-    margin: 0px;
-    width: 100%;
-    background: url("./assets/sixhulahoop.jpg") no-repeat center;
-    background-size: cover;
-    height: 100vh;
-  }
 
   .hero {
     height: 55vh;
   }
 
-  .title {
-    margin: 100px auto 0;
-    display: flex;
-    line-height: 50px;
-    font-size: 40px;
-    justify-content: center;
-    text-align: center;
-    max-width: 608px;
-  }
-
-  p,
-  q {
-    font-size: 20px;
-  }
-}
-
-.fade-in {
-  opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 1s;
-}
-
-@keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .landing-section {
-    .title {
-      line-height: 80px;
-      font-size: 65px;
-    }
-
-    p,
-    q {
-      font-size: 25px;
-    }
+  input,
+  textarea {
+    padding-top: 6px;
   }
 }

@@ -124,11 +124,7 @@ nav.navbar.navbar-inverse{
 /*------------------------------------------------------------/
 /* LANDING */
 
-/* #landing{
-  background: url("sixhulahoop.jpg") no-repeat center;
-  background-size: cover;
-  height: 100vh;
-} */
+
 
 span{
   display: block;
@@ -447,10 +443,6 @@ p{
   font-size: 18px;
 }
 /*LANDING*/
-
-  #landing{
-    background-position: 13% 96%;
-  }
 
   span{
     display: inline-block;
