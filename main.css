@@ -29,4 +29,18 @@ nav {
       font-size: 24px;
     }
   }
+
+  #pastperformances,
+  #aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 20px;
+
+    button {
+      width: 125px;
+
+      margin: 10px auto 0;
+    }
+  }
 }

@@ -3,228 +3,216 @@
 /*------------------------------------------------/
 /* MISC CODES */
 
-.whiteTXT{
+.whiteTXT {
   color: #ffffff;
 }
 
-.redTXT{
-  color:  #cd183b;
+.redTXT {
+  color: #cd183b;
 }
 
-.noPadding{
+.noPadding {
   padding: 0px;
 }
 
 .vertical-center {
-    min-height: 80%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+  min-height: 80%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-.vh{
+.vh {
   height: 100vh;
 }
 
-p{
+p {
   margin: 0;
 }
 
 @font-face {
-font-family: "Steelfish-online";
-src: url("fonts/steelfish/steelfishrg-webfont.eot");
-src:
-url("fonts/steelfish/steelfishrg-webfont.woff") format("woff"),
-url("fonts/steelfish/steelfishrg-webfont.svg") format("svg"),
-url("fonts/steelfish/steelfishrg-webfont.ttf") format("true type"),
-url("fonts/steelfish/steelfishrg-webfont.woff2") format("woff2");
+  font-family: "Steelfish-online";
+  src: url("fonts/steelfish/steelfishrg-webfont.eot");
+  src:
+    url("fonts/steelfish/steelfishrg-webfont.woff") format("woff"),
+    url("fonts/steelfish/steelfishrg-webfont.svg") format("svg"),
+    url("fonts/steelfish/steelfishrg-webfont.ttf") format("true type"),
+    url("fonts/steelfish/steelfishrg-webfont.woff2") format("woff2");
 }
 
 @font-face {
-font-family: "garamond-online";
-src: url("fonts/garamond/ebgaramond-regular-webfont.eot");
-src:
-url("fonts/garamond/ebgaramond-regular-webfont.woff") format("woff"),
-url("fonts/garamond/ebgaramond-regular-webfont.svg") format("svg"),
-url("fonts/garamond/EBGaramond-Regular.ttf") format("true type");
+  font-family: "garamond-online";
+  src: url("fonts/garamond/ebgaramond-regular-webfont.eot");
+  src:
+    url("fonts/garamond/ebgaramond-regular-webfont.woff") format("woff"),
+    url("fonts/garamond/ebgaramond-regular-webfont.svg") format("svg"),
+    url("fonts/garamond/EBGaramond-Regular.ttf") format("true type");
 }
 
-body{
-  font-family: 'Steelfish-online', 'Arial Narrow', Arial, sans-serif;
+body {
+  font-family: "Steelfish-online", "Arial Narrow", Arial, sans-serif;
 }
 
-p, q{
+p,
+q {
   font-family: "garamond-online";
   font-size: 18px;
 }
 
-h2{
+h2 {
   margin-bottom: 20px;
   font-size: 35px;
   letter-spacing: 1px;
 }
 
-button{
-  background-color: #cd183b ;
+button {
+  background-color: #cd183b;
   color: #ffffff;
   letter-spacing: 1px;
   font-size: 18px;
   margin-top: 20px;
-
 }
 /*-------------------------------------------------------/
 /* NAV BAR */
 
 /* remove spacing at bottom */
-nav.navbar.navbar-inverse{
+nav.navbar.navbar-inverse {
   margin-bottom: 0;
 }
 
 /*span bars */
-.navbar-inverse .navbar-toggle .icon-bar{
+.navbar-inverse .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
 
 /*icon box*/
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
   background-color: transparent;
 }
 
-.navbar-inverse .navbar-toggle{
+.navbar-inverse .navbar-toggle {
   border-color: transparent;
 }
 
-.transparentNav{
+.transparentNav {
   margin-bottom: 0;
   background-color: transparent;
   border-color: transparent;
 }
 
-.redNav{
+.redNav {
   background-color: #cd183b;
   border-color: #cd183b;
 }
 
-  #brand{
+#brand {
   color: #ffffff;
   font-size: 24px;
   letter-spacing: 1px;
-  }
+}
 
-  ul.nav.navbar-nav li a{
+ul.nav.navbar-nav li a {
   color: #ffffff;
   font-size: 22px;
   letter-spacing: 1px;
-  }
+}
 
-  .active{
-    color: #000000 !important;
-  }
+.active {
+  color: #000000 !important;
+}
 
 /*------------------------------------------------------------/
 /* LANDING */
 
-
-
-span{
+span {
   display: block;
 }
 
-.titleBox{
+.titleBox {
   margin-top: 15%;
   letter-spacing: 3px;
 }
 
-#title{
+#title {
   margin: 0;
   text-align: center;
   font-size: 50px;
 }
 
-
-
 /*------------------------------------------------------------/
 /* ABOUT */
 
-img{
+img {
   width: 100%;
   object-fit: cover;
   height: 100%;
 }
 
-#pastperformances{
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-#aboutme{
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.flexContain{
+.flexContain {
   display: flex;
   flex-wrap: wrap;
 }
 
-.box{
+.box {
   width: 100%;
 }
 
-.boxB{
+.boxB {
   order: 2;
 }
 
-.boxA{
+.boxA {
   order: 1;
 }
 
 /*------------------------------------------------------------/
 /* CONTACT */
 
-#review{
+#review {
   background-color: #cd183b;
 }
 
-#reviews{
+#reviews {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-#contact{
+#contact {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-form{
+form {
   margin: auto;
   font-size: 18px;
   letter-spacing: 1px;
 }
 
-input{
+input {
   width: 100%;
-  height:auto;
+  height: auto;
   margin-bottom: 2.5%;
   height: 30px;
   padding-left: 20px;
   background-color: #cd183b;
   color: #ffffff;
   letter-spacing: 1px;
-  font-family:"garamond-online";
+  font-family: "garamond-online";
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #ffffff;
-    opacity: 1; /* Firefox */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff;
+  opacity: 1; /* Firefox */
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #ffffff;
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffffff;
 }
 
-
-textarea{
+textarea {
   width: 100%;
   margin-bottom: 2.5%;
   padding-left: 20px;
@@ -234,7 +222,7 @@ textarea{
   font-family: "garamond-online";
 }
 
-.submit{
+.submit {
   width: 110px;
   height: 28px;
   background-color: #cd183b;
@@ -249,7 +237,6 @@ button.btn.btn-default {
   padding: 10px 15px;
 }
 
-
 /*------------------------------------------------------------/
 /* services */
 /*#heroImg{
@@ -258,13 +245,12 @@ button.btn.btn-default {
   height: 60vh;
 }*/
 
-#heroImg img{
+#heroImg img {
   height: 40vh;
   object-fit: cover;
-
 }
 
-#menu{
+#menu {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -272,18 +258,18 @@ button.btn.btn-default {
 /*------------------------------------------------------------/
 /* MEDIA */
 
-#photos{
+#photos {
   margin-top: 20px;
 }
 
-#vidContain{
+#vidContain {
   position: relative;
   width: 100%;
   padding-bottom: 60%;
   margin-bottom: 20px;
 }
 
-.video{
+.video {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -349,71 +335,64 @@ row:after {
   font-size: 20px;
 }
 
-
-
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  
 }
-
 
 /*------------------------------------------------------------/
 /* FOOTER */
 
-#footerA{
+#footerA {
   background: #cd183b;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-#footerB{
+#footerB {
   background: #000000;
   color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.social{
-
+.social {
   height: 40px;
   width: 40px;
 }
 
 /*----------------------------------------------------------/
 /* TABLETS */
-@media screen and (min-width: 480px){
-
+@media screen and (min-width: 480px) {
   /*NAV*/
-  ul.nav.navbar-nav{
+  ul.nav.navbar-nav {
     float: right;
   }
 
   /*LANDING*/
-  .titleBox{
+  .titleBox {
     margin-top: 16%;
   }
 
-  #title{
-    font-size: 60px
+  #title {
+    font-size: 60px;
   }
 
-
   /*CONTACT*/
-  input{
+  input {
     width: 47.5%;
   }
 
-  .L{
+  .L {
     margin-right: 2.5%;
   }
 
-  textarea{
+  textarea {
     width: 98%;
   }
 
   /*FOOTER */
-  .social{
+  .social {
     height: 60px;
     width: 60px;
   }
@@ -427,28 +406,28 @@ row:after {
     font-size: 30px;
   }
 
-    .prev,
+  .prev,
   .next {
     height: 60px;
     width: 60px;
     margin: -25px 15px 0 15px;
     font-size: 40px;
+  }
 }
 
 /*------------------------------------------------------/
 /* Desktop */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 18px;
+  }
+  /*LANDING*/
 
-p{
-  font-size: 18px;
-}
-/*LANDING*/
-
-  span{
+  span {
     display: inline-block;
   }
 
-  .titleBox{
+  .titleBox {
     margin-top: 0;
     letter-spacing: 3px;
     min-height: 80%;
@@ -457,53 +436,41 @@ p{
     align-items: center;
   }
 
-  #titleA{
+  #titleA {
     text-align: left;
     margin-left: 10%;
   }
 
-  #titleB{
+  #titleB {
     text-align: right;
     margin-right: 9%;
   }
 
-  #title{
+  #title {
     font-size: 65px;
   }
 
-
-  h2{
+  h2 {
     font-size: 50px;
   }
 
   /* ABOUT */
-  #pastperformances{
 
-    padding-top: 80px;
-  }
-
-  #aboutme{
-    padding-top: 80px;
-  }
-
-
-  .box{
+  .box {
     width: 50%;
   }
 
-  .boxB{
+  .boxB {
     order: 1;
   }
 
-  .boxA{
+  .boxA {
     order: 2;
   }
 
   /*SERVICES*/
-  #heroImg img{
-
+  #heroImg img {
     height: 60vh;
-
   }
 
   /* MEDIA */
@@ -515,4 +482,3 @@ p{
     font-size: 35px;
   }
 }
-
