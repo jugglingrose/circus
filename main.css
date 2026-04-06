@@ -11,6 +11,14 @@ nav {
     height: 55vh;
   }
 
+  p,
+  q,
+  li,
+  textarea {
+    font-family: "garamond-online";
+    font-size: 20px;
+  }
+
   input,
   textarea {
     padding-top: 6px;
@@ -29,21 +37,24 @@ nav {
 
     button {
       width: 125px;
-
       margin: 10px auto 0;
     }
   }
 
   @media screen and (min-width: 600px) {
     p,
-    q {
+    q,
+    li,
+    textarea {
       font-size: 22px;
     }
   }
 
   @media screen and (min-width: 1200px) {
     p,
-    q {
+    q,
+    li,
+    textarea {
       font-size: 24px;
     }
   }
