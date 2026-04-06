@@ -8,7 +8,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-116546517-1');
     </script>
 
@@ -33,9 +32,6 @@
   </head>
 
   <body onload="getSize()" onresize="getSize()">
-    <!--NAV -->
-
-
     <nav id="navb" class="navbar navbar-inverse navbar-fixed-top redNav">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -58,16 +54,14 @@
     </nav>
 
       <div id="landing" class="landing-section">
-           <section class="hero">
-            <img src="./assets/images/Corporate/hoop_wings.webp" alt="hula hooper" />
+        <section class="hero">
+          <img src="./assets/images/Corporate/hoop_wings.webp" alt="hula hooper" />
         </section>
 
-      <section id="about" onload="test()">
+      <section id="about">
         <div class="container-fluid">
           <div class="row flexContain">
-          
             <div id="aboutme" class="col-xs-12 col-md-6 text-center nopPadding box">
-
               <h2>ABOUT</h2>
               <p>Corean is a hula hoop performer and juggler known for her engaging stage presence and fun multi-hoop routines.  Based in Austin, TX she 
                 has spent over a decade captivating audiences with her playful, high-energy routines that combine fun choreography, colorful costuming, and 
@@ -81,8 +75,6 @@
                 moments for audiences of all ages.
               </p>
               <button onclick="location.href='services';" type="button" class="btn btn-default">SERVICES</button>
-
-
             </div>
               <div  class="col-xs-12 col-md-6 noPadding box">
               <img src="assets/balljugglecrop.jpg" alt="juggling juggler">
@@ -137,12 +129,13 @@
                   method="POST">
                   <input class="L" type="text" name="name" placeholder="Name">
                   <input type="email" name="email" placeholder="Email" name="_replyto" required>
-                  <input  class="L" type="text" name="date" placeholder="Event Date" required>
+                  <input  class="L" type="text" name="date" placeholder="Event Date" onfocus="(this.type='date')" 
+                  onblur="if(!this.value)this.type='text'" required>
                   <input type="text" name="location" placeholder="Event Location" required>
                   <input  class="L" type="text" name="number of attendees" placeholder="Number Of Guests" required>
                   <input type="text" name="event type" placeholder="Type Of Event">
                   <textarea name="additional details:" rows="8" cols="25" placeholder="Additional Info" required></textarea>
-                </br>
+                  </br>
                   <button type="submit" value="Send" class="btn btn-default">SUBMIT</button>
                 </form>
               </div>
@@ -151,29 +144,26 @@
         </section>
     
        <footer>
-      <div class="container-fluid">
-        <div id="footerA" class="row">
-          <div class="col-xs-2 col-xs-offset-4 text-center">
-            <a href="https://www.instagram.com/circuscorean" target="_blank">
-              <img class="social" src="assets/Instagram.png" />
-            </a>
+        <div class="container-fluid">
+          <div id="footerA" class="row">
+            <div class="col-xs-2 col-xs-offset-4 text-center">
+              <a href="https://www.instagram.com/circuscorean" target="_blank">
+                <img class="social" src="assets/Instagram.png" />
+              </a>
+            </div>
+            <div class="col-xs-2 text-center">
+              <a href="https://www.youtube.com/@coreangonzales1" target="_blank">
+                <img class="social" src="assets/YouTube.png" />
+              </a>
+            </div>
           </div>
-          <div class="col-xs-2 text-center">
-            <a href="https://www.youtube.com/@coreangonzales1" target="_blank">
-              <img class="social" src="assets/YouTube.png" />
-            </a>
+          <div id="footerB" class="row">
+            <div class="col-xs-12 text-center">
+              <p>Designed and Developed By Corean Gonzales 2025</p>
+            </div>
           </div>
         </div>
-        <div id="footerB" class="row">
-          <div class="col-xs-12 text-center">
-            <p>Designed and Developed By Corean Gonzales 2025</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-       </div>
-
-
-
+      </footer>
+    </div>
   </body>
 </html>
