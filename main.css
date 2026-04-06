@@ -16,6 +16,10 @@ nav {
     padding-top: 6px;
   }
 
+  blockquote {
+    border: none;
+  }
+
   #pastperformances,
   #aboutme {
     display: flex;
